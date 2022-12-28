@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+body {
+ background: #efefef;
+
+}
+
+body::before {
+    content: '';
+    display: flex;
+    background:#535971;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 436px;
+    z-index: -1;
+
+}
+
+.page{
+    width: 750px;
+    margin: auto;
+}
+
+header {
+   width: 360px;
+
+}
+
+header h1 {
+    color: white;
+    margin:auto;
+    display: flex;
+    margin-top: 140px;  
+    font-size: 48px;
+     
+}
+
+header p {
+    font-family: 'Poppins', Regular;
+    color: white;
+    margin-top: 18px;
+    font-size: 18px;
+    font-style: normal;
+    
+    margin-bottom: 58px;
+
+}
+
+#my-form {
+    background: white;
+    padding-top: 64px;
+    border-radius: 8px 8px;
+    width: 750px;
+    height: 1084px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+
+fieldset {
+    display: flex;
+    border: none; 
+    padding: 0 64px;
+    
+    margin-bottom: 30px;
+}
+
+fieldset #personal-info {
+    position: absolute;
+    width: 622px;
+    height: 382px;
+}
+
+.fieldset-wrapper {
+    width: 100%;
+    margin: 0; 
+    
+}
+
+#line {
+    border: 1px solid #e6e6f0;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    margin: 0;
+    align-content: space-between;
+    align-items: center;
+    gap:20px;
+    
+}
+label{
+    font-family: 'Poppins', Regular;
+    flex-direction: column;
+   
+}
+
+input{
+    display: flex;
+    width: 100%;
+    gap:19px;
+    margin-bottom: 19px;
+    border-radius: 8px;
+    border: 1px solid #9f9fa3;
+    width: 300px;
+    height: 56px;
+    
+}
+
+span {
+    color: #c1bccc ;
+    font-family: 'Poppins', Regular;
+    
+
+}
+
+span:hover{
+    color: #89878d ;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 11px;
+    color: #535971;
+}
+.col-2{
+    display: flex;
+    gap: 20px;
+    align-content: space-between;
+   
+}
+
+.col-2 > div:nth-child(1) {
+    width: 50%;
+   
+}
+
+fieldset #mentoring-info {
+    position: absolute;
+    width: 622px;
+    height: 350px;
+    flex-direction: column;
+}
+
+.col-3 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.col-3 > div:nth-child(2) {
+    width: 50%;
+}
+
+#initial-time, #end-time {
+    display: flex;
+    width: 140px;
+    height: 56px;
+  
+}
+
+footer {
+    width: 750px;
+    height: 160px;
+    background: #535971;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    color:#FFFFFF;
+    font-family: 'Staatliches', cursive;
+    width: 608px;
+    height: 56px;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+}
+
+footer button {
+    background: #ff5374;
+}
